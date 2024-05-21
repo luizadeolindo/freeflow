@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
   const contentDiv = document.getElementById('content');
 
-  // Carregar o dashboard por padrão quando a página é carregada
   loadContent('dashboard.html');
 
   document

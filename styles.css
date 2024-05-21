@@ -136,7 +136,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #2c3e50; /* Dark green */
+  background-color: #2c3e50;
   height: 100px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -144,9 +144,9 @@ body {
 .menuStyle {
   display: flex;
   flex-direction: column;
-  background-color: #34495e; /* Dark gray */
+  background-color: #34495e;
   padding: 20px 10px;
-  height: calc(100vh - 100px); /* Ajuste para o tamanho do header */
+  height: calc(100vh - 100px);
   width: 20%;
   align-items: center;
 }
@@ -154,7 +154,7 @@ body {
 .logoStyle {
   font-size: 28px;
   font-weight: 600;
-  color: #ecf0f1; /* Light gray */
+  color: #ecf0f1;
 }
 
 .titleContainer {
@@ -166,7 +166,7 @@ body {
 .pStyle {
   margin: 0;
   font-size: 18px;
-  color: #bdc3c7; /* Gray */
+  color: #bdc3c7;
 }
 
 .menuListStyle {
@@ -178,7 +178,7 @@ body {
   margin-right: 10px;
   height: 24px;
   width: 24px;
-  fill: #ecf0f1; /* Light gray */
+  fill: #ecf0f1;
 }
 
 .menuItemStyle {
@@ -187,14 +187,14 @@ body {
   margin: 15px 0;
   padding: 10px;
   width: 100%;
-  color: #ecf0f1; /* Light gray */
-  background-color: #2c3e50; /* Dark green */
+  color: #ecf0f1;
+  background-color: #2c3e50;
   border-radius: 5px;
   transition: background-color 0.3s;
 }
 
 .menuItemStyle:hover {
-  background-color: #16a085; /* Green */
+  background-color: #16a085;
 }
 
 .wrapper {
@@ -203,13 +203,13 @@ body {
 
 .content {
   padding: 20px;
-  background-color: #ecf0f1; /* Light gray */
+  background-color: #ecf0f1;
   width: 80%;
 }
 
 h2 {
   margin-bottom: 20px;
-  color: #2c3e50; /* Dark green */
+  color: #2c3e50;
 }
 
 .dashboardTable {
@@ -226,16 +226,16 @@ h2 {
 }
 
 .dashboardTable th {
-  background-color: #2c3e50; /* Dark green */
-  color: #ecf0f1; /* Light gray */
+  background-color: #2c3e50;
+  color: #ecf0f1;
 }
 
 .dashboardTable tr:nth-child(even) {
-  background-color: #f2f2f2; /* Light gray for even rows */
+  background-color: #f2f2f2;
 }
 
 .dashboardTable tr:hover {
-  background-color: #ddd; /* Light gray on hover */
+  background-color: #ddd;
 }
 
 .statusStyle {
