@@ -1,0 +1,342 @@
+/* Reset CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+b,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Custom Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.headerStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #2c3e50; /* Dark green */
+  height: 100px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menuStyle {
+  display: flex;
+  flex-direction: column;
+  background-color: #34495e; /* Dark gray */
+  padding: 20px 10px;
+  height: calc(100vh - 100px); /* Ajuste para o tamanho do header */
+  width: 20%;
+  align-items: center;
+}
+
+.logoStyle {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ecf0f1; /* Light gray */
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pStyle {
+  margin: 0;
+  font-size: 18px;
+  color: #bdc3c7; /* Gray */
+}
+
+.menuListStyle {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.svgImage {
+  margin-right: 10px;
+  height: 24px;
+  width: 24px;
+  fill: #ecf0f1; /* Light gray */
+}
+
+.menuItemStyle {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  padding: 10px;
+  width: 100%;
+  color: #ecf0f1; /* Light gray */
+  background-color: #2c3e50; /* Dark green */
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.menuItemStyle:hover {
+  background-color: #16a085; /* Green */
+}
+
+.wrapper {
+  display: flex;
+}
+
+.content {
+  padding: 20px;
+  background-color: #ecf0f1; /* Light gray */
+  width: 80%;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #2c3e50; /* Dark green */
+}
+
+.dashboardTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.dashboardTable th,
+.dashboardTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.dashboardTable th {
+  background-color: #2c3e50; /* Dark green */
+  color: #ecf0f1; /* Light gray */
+}
+
+.dashboardTable tr:nth-child(even) {
+  background-color: #f2f2f2; /* Light gray for even rows */
+}
+
+.dashboardTable tr:hover {
+  background-color: #ddd; /* Light gray on hover */
+}
+
+.statusStyle {
+  margin: 40px 0;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.statusItem {
+  padding: 20px 40px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.porticoStyle {
+  background-color: #16a085;
+}
+
+.camerasStyle {
+  background-color: #2980b9;
+}
+
+.sensoresStyle {
+  background-color: #e67e22;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+.linkStyle:hover {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+.linkStyle:visited {
+  text-decoration: none;
+  color: #ecf0f1;
+}
+
+.camera-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.camera-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.camera-container p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.camera-image {
+  display: flex;
+  justify-content: space-around;
+}
+
+.camera-image div {
+  text-align: center;
+}
+
+.camera-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.camera-image div:hover img {
+  transform: scale(1.1);
+}
+
+.camera-image p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+}
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-clock {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.dashboard-location {
+  font-size: 18px;
+  color: #666;
+}
